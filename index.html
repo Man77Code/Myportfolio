@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo"><span>Manish C Bhagat</span></a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <a href="https://github.com/Man77Code"><button class="visit-btn">Visit Github</button></a>
+        
+    </header>
+
+
+    <!--About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="./image.jpg.png" alt="">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Manish Bhagat</h1>
+                    <span>Web Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Download CV</div>
+                    <div class="btn"> <a href="#contact">Contact</a></div>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/Man77Code"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/manish-bhagat77/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Project Section -->
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">Recent Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="project-1.png" alt="">
+                <h3>Pixabay Clone</h3>
+                <p>Implemented an interactive image search with API integration, improving content accessibility.
+                    Optimized state management using Context API, enhancing data retrieval efficiency.
+                </p>
+                <div class="btn-group">
+
+                    <div class="btn"><a href="https://pixabay-clone-liard.vercel.app/">Live Demo</a></div>
+                    <div class="btn"><a href="https://github.com/Man77Code/pixabay_clone">Github Repo</a></div>
+                </div>
+                <h4>Skills:React.js,API</h4>
+            </div>
+
+            <div class="project-card">
+                <img src="project-2.png" alt="">
+                <h3>Movie Search App</h3>
+                <p>Developed a movie search application, dynamically fetching data from OMDB API.
+                    Enhanced UI with CSS animations and structured layout for better user engagement.
+                </p>
+                <div class="btn-group">
+
+                    <div class="btn"><a href="https://sermoveapp.netlify.app/">Live Demo</a></div>
+                    <div class="btn"><a href="https://github.com/Man77Code/Search-Movie-App.">Github Repo</a></div>
+                </div>
+                <h4>Skills:HTML,CSS,JavaScript,API</h4>
+            </div>
+
+            <div class="project-card">
+                <img src="project-3.png" alt="">
+                <h3>Weather App</h3>
+                <p>This project fetches weather data from an API, displaying temperature, humidity, and air pressure in
+                    real-time for any given location.
+                </p>
+                <div class="btn-group">
+
+                    <div class="btn"><a href="https://aboutenv.netlify.app/">Live Demo</a></div>
+                    <div class="btn"><a href="https://github.com/Man77Code/Weather-App">Github Repo</a></div>
+                </div>
+                <h4>Skills:HTML,CSS,JavaScript</h4>
+            </div>
+
+            <div class="project-card">
+                <img src="project-4.png" alt="">
+                <h3>Tic Tac Toe Game</h3>
+                <p>Tic Tac Toe project has been a lot of fun. It's a classic game where two players take turns marking
+                    'X' or 'O' in a 3x3 grid, trying to get three in a row. While it might seem simple, it has
+                    challenged me to think strategically and improve my coding skills.
+                </p>
+                <div class="btn-group">
+
+                    <div class="btn"><a href="https://ticoxtac.netlify.app/">Live Demo</a></div>
+                    <div class="btn"><a href="https://github.com/Man77Code/Tic-Tac-Toe-Game">Github Repo</a></div>
+                </div>
+                <h4>Skills:HTML,CSS,JavaScript</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section  -->
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="input">
+                <input type="text" placeholder="example@email.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about">About</a>
+
+            </li>
+            <li>
+                <a href="#projects">Project</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">&copy; All Rights Reserved | Manish Bhagat</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
